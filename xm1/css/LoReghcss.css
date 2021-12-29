@@ -1,0 +1,89 @@
+/* 主体css */
+.section {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    margin: 200px auto auto;
+    border: solid 2px black;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+/* 查看主体div多大*/
+/*.main{
+    background: aqua;
+    width: 100%;
+}*/
+
+/* 网易云播放器css */
+.bot {
+    width: 50%;
+    margin: 50px auto auto;
+}
+
+/* 设置input的点击样式 */
+input:focus {
+    border: solid 2px aqua;
+}
+
+/* 设置按钮的点击样式 */
+#reg1:focus {
+    background-color: lightcoral;
+}
+
+/* 设置主体input的样式*/
+.text_input {
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+    display: block;
+}
+
+/* 主体lable的样式 */
+.form_table {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+}
+
+/* div下的input样式 */
+div > input {
+    width: 200px;
+    height: 30px;
+    border: black 2px solid;
+    border-radius: 6px;
+    outline: none;
+    cursor: auto;
+}
+
+/* div下的lable样式 */
+div > label {
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* div下的img样式 */
+div > img {
+    float:right;
+    margin-top: 2px;
+}
+
+/*主体css*/
+.box {
+    background-image: url("../img/cskt.jpg");
+}
+
+/* 按钮的样式 */
+.sub {
+    width: 150px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+}

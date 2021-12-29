@@ -1,0 +1,52 @@
+body{
+    background-image: url("../img/lewt.jpg");
+    width: 100%;
+}
+.box{
+    width: 35%;
+    height: 95vh;
+    margin-top: 0px;
+    float: left;
+    border-radius: 10px;
+}
+.font_box{
+    width: 600px;
+    height: 400px;
+    margin: 280px auto auto;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+}
+#form_1:hover{
+    box-shadow:2px 2px  8px 2px #000000;
+}
+.input_all > input {
+    width: 200px;
+    height: 30px;
+    border: black 2px solid;
+    border-radius: 6px;
+    outline: none;
+    cursor: auto;
+    margin-left:20px;
+    margin-top: 80px;
+}
+.input_all > label {
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+.sub {
+    width: 150px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    float: left;
+}
+input:focus {
+    border: solid 2px aqua;
+}
